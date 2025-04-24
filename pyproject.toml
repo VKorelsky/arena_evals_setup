@@ -4,4 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "inspect_ai",
+    "tabulate",
+    "wikipedia",
+    "python-dotenv",
+    "anthropic>=0.42.0",
+    "instructor",
+    "openai"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jaxtyping>=0.3.2",
+]
